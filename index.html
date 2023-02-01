@@ -4,144 +4,314 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <title>Lesson-19 Responsive</title>
   </head>
   <body>
     <header>
-      <img class="first-img" src="./images/Outdoor.png" alt="" />
-
-      <p class="shop">Shop</p>
-      <p>About us</p>
-      <p>Our team</p>
-      <p>Buyer's guides</p>
-      <p>Categories</p>
-      <p>Buy template</p>
-
-      <div class="header-button">
-        <img class="shopping-cart" src="./images/shopping-cart.png" alt="" />
-        <p>Cart</p>
-        <img class="zero" src="./images/zero.png" alt="" />
-      </div>
+      <nav>
+        <h1>STUDIO POLLY</h1>
+        <ul>
+          <li>
+            <a href="#">shop</a>
+          </li>
+          <li>
+            <a href="#">about</a>
+          </li>
+          <li>
+            <a href="#">journal</a>
+          </li>
+        </ul>
+        <aside>
+          <span>Search</span>
+          <img src="./images/shopping_cart.svg" alt="shopping-cart" />
+        </aside>
+        <article>
+          <i class="fa-solid fa-bars"></i>
+        </article>
+      </nav>
+      <main>
+        <div class="product__title">
+          <span>PRODUCTS</span>
+          <span>WITH A STORY</span>
+        </div>
+        <button>watch our studio tour</button>
+        <div class="product__down">
+          <i class="fa-solid fa-down-long"></i>
+        </div>
+      </main>
     </header>
-    <div class="first-card">
-      <p>OUTDOOR EXPLORATION</p>
-      <p>Gear for when it actually matters.</p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        varius enim in eros elementum tristique.
-      </p>
+    <div class="wrapper">
+      <h1>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis
+        ante sit amet neque tristique rutrum. Nullam a suscipit ex.
+      </h1>
     </div>
-    <div class="second-card">
-      <div class="second-card__images">
-        <img
-          class="second-card__image"
-          src="./images/second-image.png"
-          alt=""
-        />
-        <img class="combined" src="./images/Combined-Shape.png" alt="" />
+    <div class="wrapper2">
+      <span>
+        <h1>our<br />bestsellers</h1>
+        <img src="./images/Vector.svg" alt="" />
+      </span>
+      <div class="wrap">
+        <div class="card1">
+          <img src="./images/bowl.jpg" alt="" />
+          <h1>Fruit Bowl</h1>
+          <p>$ 47.24 USD</p>
+        </div>
+        <div class="card1">
+          <div class="sale"><h1>sale</h1></div>
+          <img src="./images/cup.jpg" alt="" />
+          <h1>Coffee Cup</h1>
+          <p><del>$ 65.62 USD</del></p>
+          <p>$ 30.50 USD</p>
+        </div>
+        <div class="card1">
+          <img src="./images/vase.jpg" alt="" />
+          <h1>Tall Vase</h1>
+          <p>$ 46.58 USD</p>
+        </div>
       </div>
-      <div class="second-card__text">
-        <p class="p1">Who are we?</p>
-        <p>A bit about us.</p>
+      <a>see all products</a>
+    </div>
+    <div class="wrapper3">
+      <div class="cards1">
+        <h1>Vases</h1>
+        <img src="./images/star.svg" alt="" />
+      </div>
+      <div class="cards2">
+        <h1>mugs</h1>
+        <img src="./images/star.svg" alt="" />
+      </div>
+      <div class="cards3">
+        <h1>plates</h1>
+        <img src="./images/star.svg" alt="" />
+      </div>
+      <div class="cards4">
+        <h1>Vases</h1>
+        <img src="./images/star.svg" alt="" />
+      </div>
+      <div class="cards5">
+        <h1>BOWLS</h1>
+        <img src="./images/star.svg" alt="" />
+      </div>
+      <div class="cards6">
+        <h1>PLATES</h1>
+      </div>
+    </div>
+    <div class="wrapper4">
+      <h1>shop by category</h1>
+      <div class="wrap2">
+        <div class="card2">
+          <img src="./images/flowers.jpg" alt="" />
+          <div class="div">
+            <p>vases</p>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="./images/cook.jpg" alt="" />
+          <div class="div">
+            <p>Cups</p>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="./images/fruit.jpg" alt="" />
+          <div class="div">
+            <p>Plates</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper5">
+      <div class="card3">
+        <h1>home clay kits</h1>
         <p>
-          We are an outdoor gear company focused on Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Nullam scelerisque aliquam odio et
-          faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex,
-          condimentum dapibus congue et.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis
+          ante sit amet neque tristique rutrum. Nullam a suscipit ex. Donec ac
+          efficitur mauris.
         </p>
-        <div class="button-part">
-          <p>Read more</p>
-          <img src="./images/Path.png" alt="" />
+        <div class="box1">
+          <h1>free shipping</h1>
+        </div>
+        <div class="box2">
+          <h1>no need to fire</h1>
+        </div>
+        <div class="box3">
+          <h1>tools and clay included</h1>
+        </div>
+        <button type="button">order your kit now</button>
+      </div>
+      <div class="card4">
+        <img src="./images/brush.jpg" alt="" />
+      </div>
+    </div>
+    <div class="wrapper6">
+      <div class="card5">
+        <img src="./images/purplestar.svg" alt="" />
+        <h1>sustainable materials</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis
+          ante sit amet neque tristique rutrum.
+        </p>
+      </div>
+      <div class="card5">
+        <img src="./images/purplestar.svg" alt="" />
+        <h1>sustainable materials</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis
+          ante sit amet neque tristique rutrum.
+        </p>
+      </div>
+      <div class="card5">
+        <img src="./images/purplestar.svg" alt="" />
+        <h1>sustainable materials</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis
+          ante sit amet neque tristique rutrum.
+        </p>
+      </div>
+      <div class="card5">
+        <img src="./images/purplestar.svg" alt="" />
+        <h1>sustainable materials</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis
+          ante sit amet neque tristique rutrum.
+        </p>
+      </div>
+    </div>
+    <div class="wrapper7">
+      <div class="card6">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+          ornare.
+        </p>
+        <h1>katie, Chicago</h1>
+      </div>
+      <div class="card6">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+          ornare.
+        </p>
+        <h1>liam, london</h1>
+      </div>
+      <div class="card6 card66">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+          ornare.
+        </p>
+        <h1>emma, portland</h1>
+      </div>
+    </div>
+    <div class="wrapper8">
+      <h1>latest articles</h1>
+      <div class="wrap5">
+        <div class="card7">
+          <img src="./images/brushes.jpg" alt="" />
+          <div class="box2">
+            <h1>10 tips for beginners</h1>
+          </div>
+        </div>
+        <div class="card7">
+          <img src="./images/pottery.jpg" alt="" />
+          <div class="box2">
+            <h1>2022 pottery trends</h1>
+          </div>
+        </div>
+        <div class="card7 card77">
+          <img src="./images/woman.jpg" alt="" />
+          <div class="box2">
+            <h1>How to start your brand</h1>
+          </div>
         </div>
       </div>
     </div>
-    <div class="third-card">
-      <p class="third-card__p1">Our promise</p>
-      <p class="third-card__p2">Setting the bar for our products.</p>
-      <p class="third-card__p3">
-        Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
-        Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices,
-        ut faucibus orci tincidunt.
-      </p>
-      <div class="third-card__cards">
-        <div class="third-card__card">
-          <img src="./images/Frame.png" alt="" />
-          <p>Sustainable sourcing</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique.
-          </p>
+    <div class="wrapper9">
+      <div class="card8">
+        <img src="./images/background.svg" alt="" />
+        <h1>
+          new <br />
+          collection
+        </h1>
+        <h1 class="h1">april 2022</h1>
+      </div>
+      <div class="card9">
+        <h1>keep in touch</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <input type="email" placeholder="Enter your email" />
+        <button type="button">Send</button>
+      </div>
+    </div>
+    <div class="wrapper10">
+      <div class="wrap6">
+        <h1>behind the scenes</h1>
+        <p>follow us on instagram</p>
+      </div>
+      <div class="wrap7">
+        <div class="content1">
+          <img src="./images/IMAGE1.jpg" alt="" />
         </div>
-        <div class="third-card__card">
-          <img src="./images/Frame2.png" alt="" />
-          <p>Sustainable sourcing</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique.
-          </p>
+        <div class="content2">
+          <img src="./images/IMAGE2.jpg" alt="" />
         </div>
-        <div class="third-card__card">
-          <img src="./images/Frame3.png" alt="" />
-          <p>Sustainable sourcing</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique.
-          </p>
+        <div class="content1">
+          <img src="./images/IMAGE3.jpg" alt="" />
         </div>
-        <div class="third-card__card">
-          <img src="./images/Frame4.png" alt="" />
-          <p>Sustainable sourcing</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique.
-          </p>
+        <div class="content2">
+          <img src="./images/IMAGE4.jpg" alt="" />
         </div>
-        <div class="third-card__card">
-          <img src="./images/Frame5.png" alt="" />
-          <p>Sustainable sourcing</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique.
-          </p>
-        </div>
-        <div class="third-card__card">
-          <img src="./images/Frame6.png" alt="" />
-          <p>Sustainable sourcing</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique.
-          </p>
+        <div class="content1">
+          <img src="./images/IMAGE5.jpg" alt="" />
         </div>
       </div>
     </div>
-    <div class="fourth-card">
-      <p>Meet the family</p>
-      <p>What we have in store for you.</p>
-      <p>
-        Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
-        Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices,
-        ut faucibus orci tincidunt.
-      </p>
-      <div class="fourth-card__images">
-        <img src="./images/fourth-card1.png" alt="" />
-        <img src="./images/fourth-card2.png" alt="" />
-        <img src="./images/fourth-card3.png" alt="" />
-        <img src="./images/fourth-card4.png" alt="" />
-        <img src="./images/fourth-card5.png" alt="" />
-        <img src="./images/fourth-card6.png" alt="" />
+    <div class="wrapper11">
+      <h1>studio polly</h1>
+      <div class="wrap8">
+        <div class="content3">
+          <h1>Subscribe and get 10% off your first order.</h1>
+          <input type="email" placeholder="Enter your email" />
+          <button type="button">Send</button>
+        </div>
+        <div class="content4">
+          <ul>
+            <li>home</li>
+            <li>shop</li>
+            <li>Journal</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="content4">
+          <ul>
+            <li>about</li>
+            <li>Terms and Conditions</li>
+            <li>Privacy policy</li>
+          </ul>
+        </div>
+        <div class="content4">
+          <ul>
+            <li>Style guide</li>
+            <li>Licensing</li>
+            <li>Changelog</li>
+          </ul>
+        </div>
+      </div>
+      <div class="link">
+        <a href="#">Made by Daniela Tomanova.</a>
+        <a href="#">Powered by Webflow.</a>
+      </div>
+      <div class="link2">
+        <img src="./images/facebook.svg" alt="" />
+        <img src="./images/twitter.svg" alt="" />
+        <img src="./images/instagram.svg" alt="" />
       </div>
     </div>
   </body>
